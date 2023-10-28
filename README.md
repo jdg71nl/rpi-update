@@ -200,3 +200,11 @@ this tool from working.
 
 Pi-hole and similar DNS based may stop this tool from working.
 Make sure github.com domains are not blocked. (e.g. codeload.github.com)
+
+## Rollback
+
+Use this command to rollback to the latest stable kernel:
+
+'''
+sudo apt-get install --reinstall raspberrypi-bootloader raspberrypi-kernel
+'''
